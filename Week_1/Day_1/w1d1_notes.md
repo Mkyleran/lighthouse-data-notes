@@ -37,3 +37,15 @@ Q6
 Assigning command outputs to varaibles [StackOverflow](https://stackoverflow.com/questions/4651437/how-do-i-set-a-variable-to-the-output-of-a-command-in-bash)
 
 Arithmatic comparison [StackOverflow](https://stackoverflow.com/questions/18668556/how-can-i-compare-numbers-in-bash)
+
+Q3 replacing the delimiter. Movie titles have commas, which get overwritten by the simple sed command.
+
+Try:
+1. move all quoted movie titles to a new file
+    `grep -o '".*"' cast-2.csv > test.csv`
+2. Replace quoted movie titles with a distinct string
+    `sed 's/".*"/XXXXX/g' cast-2.csv > no_quotes.csv`
+3. Change delimiter
+    `sed 's/,/;/g' no_quotes.csv > no_quotes_new_delim.csv`
+4. Replace distinct strings with quoted movie titles
+    `sed "s/XXXXX/$(cat test.csv)/" no_quotes_new_delim.csv > cast_final.csv` # Not working [StackExchange](https://askubuntu.com/questions/811881/how-to-insert-the-contents-of-one-file-to-an-exact-place-in-another-file)

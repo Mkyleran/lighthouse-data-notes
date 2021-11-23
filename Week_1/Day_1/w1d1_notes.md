@@ -1,6 +1,8 @@
+# W1D1-01 Notes
+## This Week: Focus on Tech Fundamentals
+## Today: Fundamentals of Data Science
 
-
-# Virtual Environments
+### Virtual Environments
 
 From the __[Virtual Environments walkthrough](https://data.compass.lighthouselabs.ca/activities/32)__ tutorial __[How to add your Conda environment to your jupyter notebook in just 4 steps](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084)__
 ​
@@ -14,7 +16,7 @@ From Prep Work: __[Install Anaconda walkthrough](https://data.compass.lighthouse
 ​
 I want to talk to a mentor about this. I installed Jupyter Lab in the root.
 
-# Bash reading
+### Bash reading
 From __[Introduction to Bash](https://stackabuse.com/introduction-to-bash/)__
 The tutorial shows that Homebrew installs the latest version of BASH into `/usr/local/bin/bash`.
 On my machine, Homebrew installed BASH 5.1.12 into `/opt/homebrew/bin/bash`.

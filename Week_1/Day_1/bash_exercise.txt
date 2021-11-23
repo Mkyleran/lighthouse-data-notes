@@ -1,0 +1,80 @@
+
+## Use this file to document the commands and write the results you get.
+
+
+
+#### 1. Download the data from https://drive.google.com/open?id=1TNZiSaNmcDbZ7fglKY7lPhni3ucD5Qn3
+
+
+#### 2. How many rows does the dataset have?
+wc -l cast.csv
+ 3634468 cast.csv
+
+#### 3. Change the delimiter to ";"
+sed 's/,/;/g' cast.csv > cast_new_delim.csv
+
+head cast_new_delim.csv
+ title;year;name;type;character;n
+ Closet Monster;2015;Buffy #1;actor;Buffy 4;
+ Suuri illusioni;1985;Homo $;actor;Guests;22
+ Battle of the Sexes;2017;$hutter;actor;Bobby Riggs Fan;10
+ Secret in Their Eyes;2015;$hutter;actor;2002 Dodger Fan;
+ Steve Jobs;2015;$hutter;actor;1988 Opera House Patron;
+ Straight Outta Compton;2015;$hutter;actor;Club Patron;
+ Straight Outta Compton;2015;$hutter;actor;Dopeman;
+ For Thy Love 2;2009;Bee Moe $lim;actor;Thug 1;
+ "Lapis; Ballpen at Diploma; a True to Life Journey";2014;Jori ' Danilo' Jurado Jr.;actor;Jaime (young);9
+
+##### This doesn't work if there is a comma in any of the fields.
+
+#### 4. Output the header into the separate file cast_header.csv and remove it from the data
+head -1 cast.csv > cast_header.csv
+
+head cast_header.csv
+ title,year,name,type,character,n
+
+sed -i '' 1d cast.csv
+
+head -5 cast.csv
+ Closet Monster,2015,Buffy #1,actor,Buffy 4,
+ Suuri illusioni,1985,Homo $,actor,Guests,22
+ Battle of the Sexes,2017,$hutter,actor,Bobby Riggs Fan,10
+ Secret in Their Eyes,2015,$hutter,actor,2002 Dodger Fan,
+ Steve Jobs,2015,$hutter,actor,1988 Opera House Patron,
+ 
+#### 5. How many movies did Pierce Brosnan play in?
+grep 'Pierce Brosnan' cast.csv | wc -l
+      58
+
+#### 6. Were there more superman movies or batman movies?
+S=$(grep 'superman' cast.csv | wc -l)
+B=$(grep 'batman' cast.csv | wc -l)
+
+echo $S, $B
+ 5, 4
+
+if (( S > B)); then
+> echo 'Superman made more';
+> else
+> echo 'Batman made more';
+> fi;
+ Superman made more
+
+
+#### 7. How many roles are in this database?
+
+# column 5 is character
+cut -d ',' -f 5 cast.csv | sort | uniq -c | wc -l
+ 1509353
+
+#### 8. What is the most often played role?
+cut -d ',' -f 5 cast.csv | sort | uniq -c | sort -r | head
+ 8023 Reporter
+
+
+#### 9. What is the most frequent movie name?
+
+cut -d ',' -f 3 cast.csv | sort | uniq -c | sort -r | head -1
+2413 2014
+	# I don't think this result is correct. I believe the issue lies with how the delimiter was changed in question 3.
+

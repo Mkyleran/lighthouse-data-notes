@@ -24,9 +24,16 @@ Following the rest of the tutorial worked fine.
 ​
 The command `which -a bash` shows where each version of BASH is installed on a machine. Source: __[Upgrading Bash on macOS](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba)__
 
-#### TODO:
+#### TODO: Complete
 Create Zsh alias called bash5 to exectue `/opt/homebrew/bin/bash`.
 I have a weird thing about not wanting to switch my default shell to bash.
 ... I guess it's no big deal to switch it back after the course.
 But why not just use Zsh?
-[ ]:
+__Solution__: From .zshrc, aliases should be set in ZSH_CUSTOM. I had to create the file `aliases.zsh`. source: [github](https://github.com/ohmyzsh/ohmyzsh/issues/4865)
+
+### Bash Assignment
+[bash_exercise.txt](../../../../data_bootcamp/w1/d1-day_1/bash_exercise.txt)
+Q6
+Assigning command outputs to varaibles [StackOverflow](https://stackoverflow.com/questions/4651437/how-do-i-set-a-variable-to-the-output-of-a-command-in-bash)
+
+Arithmatic comparison [StackOverflow](https://stackoverflow.com/questions/18668556/how-can-i-compare-numbers-in-bash)

@@ -48,4 +48,23 @@ This repository contains all of the notes taken by [Kyle McElheran](https://gith
   * [Day 3](/Week_7/Day_3) NoSQL and Docker
   * [Day 4](/Week_7/Day_4) Miniproject IV
   * [Day 5](/Week_7/Day_5) RnR and Mini-Project IV
-  * [Day 6](/Week_7/Day_6) Deep Learning
+  * [Day 6](/Week_7/Day_6) Deep Learning I
+* [Week 8](/Week_8) Deep Learning
+  * [Day 1](/Week_8/Day_1) Deep Learning II
+  * [Day 2](/Week_8/Day_2) Deep Learning III
+  * [Day 3](/Week_8/Day_3) NLP I
+  * [Day 4](/Week_8/Day_4) NLP II
+  * [Day 5](/Week_8/Day_5) Soft Skills
+  * [Day 6](/Week_8/Day_6) Active Learning and SNA
+* [Week 9](/Week_9) Time Series and Online Learning
+  * [Day 1](/Week_9/Day_1) Time Series I
+  * [Day 2](/Week_9/Day_2) Time Series II
+  * [Day 3](/Week_9/Day_3) Graph Analysis and GANs
+  * [Day 4](/Week_9/Day_4) Mini-project V
+  * [Day 5](/Week_9/Day_5) RnR and Mini-project V
+  * [Day 6](/Week_9/Day_6) Market Basket Analysis and Online Learning
+* [Week 10](/Week_10) Final Techniques and Start of the Capstone
+  * [Day 1](/Week_10/Day_1) Recommender Engines I
+  * [Day 2](/Week_10/Day_2) Recommender Engines II
+  * [Day 3](/Week_10/Day_3) Online and Reinforcement Learning
+* [W10D4–W12D4](/W10D4-W12D4) Final Project

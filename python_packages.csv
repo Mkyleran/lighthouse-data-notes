@@ -11,6 +11,7 @@ jupyterlab,1,1,https://jupyterlab.readthedocs.io/en/stable/getting_started/insta
 nodejs,0,1,https://nodejs.org/en/,JavaScript runtime used by Jupyterlab,,
 flask,1,1,https://flask.palletsprojects.com/en/2.0.x/installation/,lightweight WSGI web application framework,W7D2,
 flask_restful,1,0,https://flask-restful.readthedocs.io/en/latest/installation.html,extension for Flask that adds support for quickly building REST APIs,W7D2,
+sqlalchemy,1,1,https://docs.sqlalchemy.org/en/14/intro.html#installation,SQL Toolkit and Object Relational Mapper is a comprehensive set of tools for working with databases and Python,W2D2,
 psycopg2,1,1,https://www.psycopg.org/docs/install.html,PostgreSQL adapter for the Python,W2D1,
 pymongo,1,0,https://pymongo.readthedocs.io/en/stable/installation.html,tools for working with MongoDB,W7D3,
 mongoengine,1,0,https://docs.mongoengine.org/guide/installing.html,Object-Document Mapper,W7D3,

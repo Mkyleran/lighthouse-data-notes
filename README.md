@@ -7,7 +7,7 @@ This repository contains all of the notes taken by [Kyle McElheran](https://gith
 
 ## TOC
 
-* [Week 1](/Week_1) Focus on Tech Fundamenetals
+* [Week 1](/Week_1) Focus on Tech Fundamentals
   * [Day 1](/Week_1/Day_1) Fundamentals of Data Science
   * [Day 2](/Week_1/Day_2) Programming in Python
   * [Day 3](/Week_1/Day_3) APIs
@@ -25,7 +25,7 @@ This repository contains all of the notes taken by [Kyle McElheran](https://gith
   * [Day 1](/Week_3/Day_1) Data Visualization
   * [Day 2](/Week_3/Day_2) Data Visualization II
   * [Day 3](/Week_3/Day_3) Machine Learning
-  * [Day 4](/Week_3/Day_4) Unserpervised Learning
+  * [Day 4](/Week_3/Day_4) Unsupervised Learning
   * [Day 5](/Week_3/Day_5) Linear Algebra
   * [Day 6](/Week_3/Day_6) Machine Learning Prep
 * [Week 4](/Week_4) Machine Learning
@@ -43,7 +43,7 @@ This repository contains all of the notes taken by [Kyle McElheran](https://gith
 * [W5D5–W6D5](/W5D5-W6D5) Mid-Term Project
 * [W6D6](/W6D6) Amazon Web Services
 * [Week 7](/Week_7) Pipelines and Deployment
-  * [Day 1](/Week_7/Day_1) Model Persistance and Pipelines
+  * [Day 1](/Week_7/Day_1) Model Persistence and Pipelines
   * [Day 2](/Week_7/Day_2) Building APIs
   * [Day 3](/Week_7/Day_3) NoSQL and Docker
   * [Day 4](/Week_7/Day_4) Miniproject IV

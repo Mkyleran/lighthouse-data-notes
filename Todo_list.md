@@ -18,6 +18,18 @@
 - W3D5 SVD Exercise.
   - Check all the singular vectors in U from `np.linalg.svd()` to see if vectors close to 0 are 0. I guess this also applies to V when the dimensions are right.
 
+### W8D4
+
+- NLP Challenge
+
+### W9D2
+
+- Time Series Challenge
+
+### W10D2
+
+- Recommender Engines II Challenge
+
 ## STRETCH
 
 - W1D4 [Mini-project-I part II](https://data.compass.lighthouselabs.ca/days/w01d4/activities/295)
@@ -52,3 +64,4 @@
 
 - Dimensionality Reduction Assignment
 - Programming Test III Solutions
+

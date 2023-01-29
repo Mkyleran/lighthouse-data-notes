@@ -65,3 +65,10 @@ Feature Engineering
     - Z-test
     - T-test
     - ANOVA
+
+### Value Transformation
+
+- Basic transformations (logarithmic,  exponential, quadratic)
+- Binning
+- Scaling
+- Dummy variables

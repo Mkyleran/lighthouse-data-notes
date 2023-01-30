@@ -115,4 +115,17 @@ word2vec hyperparameters:
 - number of negative samples
   - 2-5 is adequate for a large enough dataset
   - 5-20 recommended
-  
+
+### [RNN](https://data.compass.lighthouselabs.ca/days/w08d3/activities/717)
+
+Word-level language model
+
+- assign integer to each word
+
+Character level language model
+
+- assign an integer to each character
+- Dataset contains a significant number of out-of-vocabulary words or infrequent words
+- most text strings are short, and length bound
+- long sequences may not capture long-range dependencies
+- slower than word-level for same dataset

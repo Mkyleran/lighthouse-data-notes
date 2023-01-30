@@ -113,9 +113,55 @@ Resources:
 Ways to optimize CNN
 [How to Develop a CNN From Scratch for CIFAR-10 Photo Classification](https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification/)
 
-## RNN
+### [RNN and LSTM](https://data.compass.lighthouselabs.ca/days/w08d2/activities/698)
 
+Video: [Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM)](https://www.youtube.com/watch?v=WCUNPb-5EYI) Jun 27, 2017
 
+#### RNN
 
-## Long Short-Term Memory Network
+- Previous predictions are additional new inputs
+- Predictions go through an activation function (tanh (-1, 1))
+- Only sees a few steps back
 
+#### Long Short-Term Memory Network
+
+- Adds memory
+- Forgetting NN
+  - Activation function: sigmoid [0, 1)
+- Selection NN. When to send info from memory for prediction
+  - Activation function: sigmoid [0, 1)
+- Ignoring NN
+  - Activation function: sigmoid [0, 1)
+  - Intention mechanism
+
+Resources:
+
+- Chris Olah
+- Andre Karpathy
+- DeepLearning 4J
+
+### [Examples of DL Architectures](https://data.compass.lighthouselabs.ca/813f8fcb-7b18-4bab-8613-3634ba35518e)
+
+Article: [10 Advanced Deep Learning Architectures Data Scientists Should Know!](https://www.analyticsvidhya.com/blog/2017/08/10-advanced-deep-learning-architectures-data-scientists/) May 24, 2020
+
+Computer Vision tasks
+
+- Object Recognition / classification
+- Classification + Localisation
+- Object Detection
+- Image Segmentation
+
+Advanced architectures have a proven record of success
+
+CV Architectures
+
+1. AlexNet
+2. VGG Net
+3. GoogleNet
+4. ResNet
+5. ResNeXt
+6. RCNN
+7. YOLO
+8. SqueezeNet
+9. SegNet: image segmentation
+10. GAN
